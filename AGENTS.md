@@ -47,3 +47,11 @@
 - Prefer small, direct edits over broad redesigns.
 - Before changing shared styles, confirm whether the user wants that scope.
 - Do not edit `app/globals.css` unless the user explicitly asks for it.
+
+## Cursor Cloud specific instructions
+
+- **Single service**: This is a static-export Next.js app with no backend, database, or API routes. The only service to run is `pnpm dev` (Turbopack dev server on port 3000).
+- **No external secrets required**: The app uses hardcoded company data and public map tiles (CartoDB). No API keys or environment variables are needed for local dev.
+- **`pnpm install` warning about build scripts**: pnpm may warn about ignored build scripts for `msw`, `sharp`, and `unrs-resolver`. These are non-blocking and do not affect dev or build. Do not run `pnpm approve-builds` interactively.
+- **Static export**: `next.config.mjs` sets `output: "export"`, so `pnpm build` produces a static `out/` directory. `pnpm start` (SSR server) will not work; use `pnpm dev` for development.
+- **Lint has 1 expected warning**: ESLint reports a single `@next/next/no-img-element` warning in `components/company-card.tsx`. This is intentional and not a blocker.
