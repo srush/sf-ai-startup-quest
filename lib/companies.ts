@@ -245,11 +245,13 @@ export const COMPANIES: Company[] = [
     whyItMatters:
       "The dominant AI code editor, one of the fastest-growing developer tools ever built.",
     category: "Devtools",
-    locationLabel: "33 New Montgomery St, San Francisco",
-    coordinates: [-122.4013, 37.7886],
+    locationLabel: "403 Francisco St, San Francisco",
+    coordinates: [-122.4127, 37.8046],
     founded: 2022,
-    sourceUrl: "https://www.cbinsights.com/company/anysphere",
-    sourceLabel: "CB Insights company profile",
+    logoUrl: "https://cursor.com/marketing-static/icon-512x512.png",
+    sourceUrl:
+      "https://www.loopnet.com/Listing/403-Francisco-St-San-Francisco-CA/22598524/",
+    sourceLabel: "LoopNet property listing",
   },
   {
     slug: "delphi",
