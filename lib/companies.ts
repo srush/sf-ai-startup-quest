@@ -241,16 +241,16 @@ export const COMPANIES: Company[] = [
     name: "Cursor",
     website: "https://cursor.com",
     shortDescription:
-      "AI-powered code editor built on VS Code with deep LLM integration for code generation.",
+      "Builds coding agents that plan, build, test, and review code.",
     whyItMatters:
       "The dominant AI code editor, one of the fastest-growing developer tools ever built.",
     category: "Devtools",
-    locationLabel: "403 Francisco St, San Francisco",
-    coordinates: [-122.4127, 37.8046],
+    locationLabel: "315 Bay St, San Francisco, CA 94133",
+    coordinates: [-122.4019, 37.8058],
     founded: 2022,
-    logoUrl: "https://cursor.com/marketing-static/icon-512x512.png",
+    logoUrl: "https://cursor.com/marketing-static/icon-192x192.png",
     sourceUrl:
-      "https://www.loopnet.com/Listing/403-Francisco-St-San-Francisco-CA/22598524/",
+      "https://www.loopnet.com/Listing/315-Bay-St-San-Francisco-CA/25666343/",
     sourceLabel: "LoopNet property listing",
   },
   {
