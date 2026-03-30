@@ -246,12 +246,12 @@ export const COMPANIES: Company[] = [
       "The dominant AI code editor, one of the fastest-growing developer tools ever built.",
     category: "Devtools",
     locationLabel: "315 Bay St, San Francisco, CA 94133",
-    coordinates: [-122.4019, 37.8058],
+    coordinates: [-122.4123828, 37.8054697],
     founded: 2022,
     logoUrl: "https://cursor.com/marketing-static/icon-192x192.png",
     sourceUrl:
-      "https://www.loopnet.com/Listing/315-Bay-St-San-Francisco-CA/25666343/",
-    sourceLabel: "LoopNet property listing",
+      "https://nominatim.openstreetmap.org/search?street=315%20Bay%20St&city=San%20Francisco&state=CA&postalcode=94133&country=USA&format=jsonv2&limit=1",
+    sourceLabel: "OpenStreetMap / Nominatim geocode",
   },
   {
     slug: "delphi",
